@@ -1,0 +1,21 @@
+{
+  "name": "data-structure-algorithms",
+  "version": "0.1.0",
+  "description": "data structures and algorithms in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data-structures",
+    "algorithims",
+    "es6"
+  ],
+  "author": "Shahadul Haider <shahadul.haider@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
