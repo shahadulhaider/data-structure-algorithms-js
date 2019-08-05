@@ -35,12 +35,14 @@ function partition(array, left, right) {
   return i;
 }
 
+module.exports = quickSort;
+
 // Usage
-const numbers = [...Array(8)].map(() => Math.floor(Math.random() * 4000) - 2000);
-console.log('before sorting:');
-console.log(numbers.join(' '));
-console.log('after sorting:');
-console.log(quickSort(numbers).join(' '));
+// const numbers = [...Array(8)].map(() => Math.floor(Math.random() * 4000) - 2000);
+// console.log('before sorting:');
+// console.log(numbers.join(' '));
+// console.log('after sorting:');
+// console.log(quickSort(numbers).join(' '));
 
 // const chars = [...Array(16)].map(() => String.fromCharCode(Math.floor(Math.random() * (123 - 97) + 97)));
 // console.log('before sorting:');
